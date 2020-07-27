@@ -21,3 +21,28 @@ def _get_from_java_home : 아래
 java_home = "C:/Program Files/Java/jdk-14.0.2"
 
 C:\Program Files\Java\jdk1.8.0_261\jre\bin\server;jvm.dll
+
+
+
+
+
+<오류 유형 1>
+
+jvm.dll이(가) 없어 프로그램을 시작할 수 없습니다 
+
+
+R programming 뿐 만 아니라 jvm.dll을 path로 접근하는 모든 프로그램은
+
+jvm.dll로 접근하기 위한 path 환경설정이 제대로 안되어 있을 때,
+
+이러한 에러를 출력합니다.
+
+
+이런 에러의 이유는 다음 두가지입니다.
+1. JAVA를 설치하지 않으셨을 때.
+2. JAVA를 설치했지만, PATH 환경변수에 jvm.dll 위치를 등록하지 않으셨을 때.
+
+
+
+
+
